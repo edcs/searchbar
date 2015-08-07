@@ -1,0 +1,29 @@
+{
+  "name": "edcs-searchbar",
+  "version": "1.0.0",
+  "description": "A tiny module for building a re-usable searchbar.",
+  "author": "Edward Coleridge Smith <e.coleridgesmith@edcs.me>",
+  "homepage": "http://ecs.io",
+  "main": "src/searchbar.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edcs/searchbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edcs/searchbar/issues"
+  },
+  "keywords": [
+    "searchbar",
+    "form"
+  ],
+  "analyze": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "webpack src/searchbar.js searchbar.min.js -p"
+  },
+  "devDependencies": {
+    "webpack": "1.7.2",
+    "handlebars": "^3.0.3",
+    "handlebars-loader": "^1.1.0"
+  }
+}
